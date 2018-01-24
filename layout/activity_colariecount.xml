@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#ffffcc"
+                android:layout_height="match_parent">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/l1"
+         android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Category"
+        android:textSize="22dp"
+        android:id="@+id/tc"
+        android:layout_gravity="center"/>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:id="@+id/l2"
+             android:layout_height="wrap_content">
+             <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tc"
+        android:divider="#b5b5b5"
+        android:scrollbars="vertical"/>
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/l3">
+
+     <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv2"
+        android:layout_marginTop="10dp"
+        android:divider="#5b5b5b"
+        android:layout_below="@+id/lv1"
+        android:scrollbars="vertical"/>
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/l4">
+
+     <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv3"
+        android:layout_marginTop="10dp"
+        android:divider="#b5b5b5"
+        android:layout_below="@+id/lv2"
+        android:scrollbars="vertical"/>
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/l5">
+
+     <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv4"
+        android:layout_marginTop="10dp"
+        android:divider="#55bb5b"
+        android:layout_below="@+id/lv3"
+        android:scrollbars="vertical"/>
+         </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/l6">
+
+     <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lv4"
+        android:scrollbars="vertical"/>
+         </LinearLayout>
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#ffffcc"
+tools:context="com.example.tarunmittal.body_guardian.HomeActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdisplay"
+        android:textColor="@android:color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img1"
+            android:layout_margin="20dp"
+
+            android:src="@drawable/bmi1"></ImageView>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb1"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:textColor="@android:color/black"
+
+            android:text="Body Measure Index"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/img1"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tt1"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:textColor="@android:color/black"
+android:layout_toRightOf="@+id/img1"
+            android:layout_marginTop="100dp"
+
+            android:textSize="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel2"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img2"
+            android:layout_margin="20dp"
+            android:src="@drawable/bmr"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb2"
+            android:textColor="@android:color/black"
+            android:fontFamily="times new roman"
+            android:text="Basal Metabolic Rate"
+            android:textStyle="bold"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/img2"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img3"
+            android:layout_margin="20dp"
+            android:src="@drawable/download"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb3"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Calorie Calculator"
+            android:fontFamily="times new roman"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/img3"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel3"
+        >
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img4"
+            android:layout_margin="20dp"
+            android:src="@drawable/ideak"
+            android:background="@android:color/white"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb4"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:text="Ideal Weight Calculator"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@id/img4"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img8"
+            android:layout_margin="20dp"
+            android:src="@drawable/images"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tb"
+            android:textColor="@android:color/black"
+            android:text="Target Heart Rate"
+            android:fontFamily="times new roman"
+            android:layout_margin="25dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/img8"/>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

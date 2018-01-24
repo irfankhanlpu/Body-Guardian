@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111133"
+    tools:context="com.example.tarunmittal.body_guardian.signup">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:drawableTop="@drawable/ic_supervisor_account_white_24dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:text="Email Address:"
+        />
+
+    <EditText
+        android:id="@+id/txtEmailRegistraion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textColor="@android:color/white"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:hint="Email"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/txtEmailRegistraion"
+        android:layout_marginTop="16dp"
+        android:text="Password:"
+        />
+    <EditText
+        android:id="@+id/txtPaaswordRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/btnRegistrationUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button"
+        android:text="Registration"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/txtPaaswordRegistration"
+        android:ems="10"
+
+        />
+
+</LinearLayout>

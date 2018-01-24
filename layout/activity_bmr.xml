@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffcc"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarunmittal.body_guardian.BMR">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/l1"
+            android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BMR Calculator"
+                    android:textAllCaps="true"
+                    android:fontFamily="times new roman"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:textSize="35dp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Height"
+                        android:background="#ffd24d"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        />
+                    <EditText
+                        android:layout_width="230dp"
+                        android:id="@+id/heighttxt"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="Current Height"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+
+                        />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbcenti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Centimetres"
+                        android:fontFamily="times new roman"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <RadioButton
+                        android:id="@+id/rbinches"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="inches"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        />
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Weight"
+                        android:background="#ffd24d"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        />
+                    <EditText
+                        android:layout_width="230dp"
+                        android:id="@+id/weighttxt"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:hint="Current weight"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+
+                        />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbkgs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Kilogram"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <RadioButton
+                        android:id="@+id/rblbs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Pound"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        />
+
+                </RadioGroup>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Age"
+                        android:background="#ffd24d"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        />
+                    <EditText
+                        android:layout_width="230dp"
+                        android:id="@+id/Agetxt"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:layout_height="wrap_content"
+                        android:hint="Current Age"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:background="#ffd24d"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        />
+
+
+                    <RadioGroup
+                        android:id="@+id/rg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/rbmale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:text="Male"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                        <RadioButton
+                            android:id="@+id/rbfemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:text="Female"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            />
+
+                    </RadioGroup>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rg4">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="I am sedentary"
+                        android:id="@+id/t1"
+                        android:fontFamily="times new roman"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+
+                        android:text="I am Lightly active"
+                        android:id="@+id/t2"
+                        android:fontFamily="times new roman"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:id="@+id/t3"
+                        android:text="I am moderately active"
+                        android:fontFamily="times new roman"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="I am very active"
+                        android:id="@+id/t4"
+                        android:fontFamily="times new roman"/>
+
+                    <RadioButton
+                        android:textColorLink="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:text="I am super active"
+                        android:id="@+id/t5"
+                        android:fontFamily="times new roman"/>
+
+                </RadioGroup>
+            </LinearLayout>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#ffd24d"
+                android:text="Check BMR"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/calbmi"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+
+        </LinearLayout>
+        </ScrollView>
+
+
+
+
+</LinearLayout>

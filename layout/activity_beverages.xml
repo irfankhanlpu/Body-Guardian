@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffcc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:id="@+id/dftv"
+        android:textStyle="bold"
+        android:text="Energy(kcal)-per 12 ounces"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/auto"
+        android:layout_below="@+id/dftv"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        
+        >
+        <requestFocus />
+    </AutoCompleteTextView>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dflv"
+        android:layout_below="@+id/auto">
+
+    </ListView>
+</RelativeLayout>

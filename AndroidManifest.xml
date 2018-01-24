@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.tarunmittal.body_guardian">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmi2"
+        android:label="@string/name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup">
+        </activity>
+        <activity android:name=".HomeActivity">
+        </activity>
+        <activity android:name=".BMI">
+        </activity>
+        <activity android:name=".Disclamier">
+        </activity>
+        <activity android:name=".Info">
+        </activity>
+        <activity android:name=".BMR">
+        </activity>
+        <activity android:name=".Target_heart_rate">
+        </activity>
+        <activity android:name=".idealweight">
+        </activity>
+        <activity android:name=".Colariecount">
+        </activity>
+        <activity android:name=".CalorieActivity">
+        </activity>
+        <activity android:name=".vegetable">
+        </activity>
+        <activity android:name=".m">
+        </activity>
+        <activity android:name=".Fruits">
+        </activity>
+        <activity android:name=".Beverages">
+        </activity>
+        <activity android:name=".fastfoods">
+        </activity>
+        <activity android:name=".dfruits">
+        </activity>
+        <meta-data android:resource="@xml/searchable"
+            android:name="android.app.searchable"></meta-data>
+    </application>
+
+</manifest>

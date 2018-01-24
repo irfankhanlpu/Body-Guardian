@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical"
+    tools:context="com.example.tarunmittal.body_guardian.Disclamier">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times new roman"
+        android:text="This application helps you to calculate different Body Indexes. We are not responsible for any conclusion based on the results of this application.For accurate measurements please consult your GP or Nutritionist. "/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="times new roman"
+        android:text="For accurate measurements please consult your GP or Nutritionist."/>
+
+
+</LinearLayout>

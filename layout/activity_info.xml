@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical"
+    tools:context="com.example.tarunmittal.body_guardian.Info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:fontFamily="times new roman"
+        android:text="With this application you can easily calculate your body indexes such as BMI(Body Mass Index), BMR(Basal Metabolic Rate), Calorie, Ideal Weight, Body Fat, Carbohydrate etc. This application is build on the official calculations but gaves only an indication of your health. For more information please consult your GP or Nutritionist for additional health checks."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="times new roman"
+
+        android:text="DESIGNED BY:-"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="times new roman"
+
+        android:text="TARUN MITTAL"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="times new roman"
+
+        android:text="SCHOOL OF COMPUTER SCIENCE"
+        />
+
+
+</LinearLayout>

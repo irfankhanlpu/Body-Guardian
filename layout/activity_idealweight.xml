@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffcc"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.tarunmittal.body_guardian.idealweight">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ideal Weight Calculator"
+            android:textStyle="italic"
+            android:fontFamily="times new roman"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textStyle="bold"
+            android:fontFamily="times new roman"
+            android:layout_margin="20dp"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/heighttxt"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Height"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textSize="20dp"
+                />
+
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/rbcenti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Centimetres"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/rbinches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="inches"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:id="@+id/age"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="times new roman"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/agetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Age>18"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20dp"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="20dp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select The Formula"
+            android:textColor="@android:color/black"
+            android:layout_margin="20dp"
+            android:id="@+id/formula"
+            android:textSize="30dp"
+            android:fontFamily="times new roman"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spiner"
+        android:textColor="@android:color/black"
+
+
+        ></Spinner>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/idealweight"
+        android:text="IDEAL WEIGHT"
+        android:background="@drawable/button"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"/>
+
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>
