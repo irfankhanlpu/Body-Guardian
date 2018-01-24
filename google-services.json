@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "923673246674",
+    "firebase_url": "https://bodyguardian-4bd75.firebaseio.com",
+    "project_id": "bodyguardian-4bd75",
+    "storage_bucket": "bodyguardian-4bd75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923673246674:android:7ff484e8c5236cd6",
+        "android_client_info": {
+          "package_name": "com.example.tarunmittal.body_guardian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923673246674-b2oc965lhrv5fc358t2vnf0n6p3hqc58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYz2-08qIrLyoKBCOA9m4OKFf18PW2kFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d96f9f3ef66494d1231304cafd28c962dda80dea">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_05c1c2b8af1155bdf03a88344610fa79f8fbd5d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_af6b9575a91bf9fba89b2a814b09f0662e1c403c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\82184299ada4f1d65f8192158fe47be9c34fb2b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_71f8e60c2970d748af33ce69da8f26bd1b4f4ad2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_792f467057beefea1796a442af89abe7c734d605.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\40c01168320968f417454f26d27dfa321d9c3f3a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_334955e3dc0ec130e1045c035f221e3e2c2e6c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_1a8740f097357354602aaa3eb2eb211c05c6a84a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\c256b0ea25c365a913e3af217e19ad3e685dbb88\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_e533d00827b19d8f1571ba2bed1b76a6ec86adbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Tarun Mittal\.android\build-cache\4eb49c0f17dca389605bdb02521afd18429fc0c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="D:\app\Body_Guardian\app\build\intermediates\pre-dexed\debug\classes_b397296e536169164e6b05e64b492520033b54bc.jar" />
+    </item>
+
+</items>
