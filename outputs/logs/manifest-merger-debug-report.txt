@@ -1,0 +1,330 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:3:11-58
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:7:5-55:19
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\91b3e3e662b39f2b9853f362eb0535abd2a1c7a5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\40c01168320968f417454f26d27dfa321d9c3f3a\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\c256b0ea25c365a913e3af217e19ad3e685dbb88\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-invites:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\f9c60534e7366802217f8914302688edeb6c1618\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\82184299ada4f1d65f8192158fe47be9c34fb2b5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tarun Mittal\.android\build-cache\5c7f85d944f0450357b0bda4295a51829c7769ba\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\0964f0a5882a520c3529b87f14b0fbe361abcff4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\512dcf42081cc03bc71dbe2454c5c23b637aae48\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\43a1ce9226b51fc45b5438187d2b675373badf39\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\4d9d8bb9c9eaaf6770bd5370187c57eefa6f7020\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\fe9224aa24c6809a754f91b0c5b7e3ab6c80e8ff\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\6641c1d6edd829de8bb34e4b64a75629d6d2cded\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ee36f11882607548e0e9776387f295a6da2e4926\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\19bfc2607cd045cbb37a0e51d01422b999aa8a83\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ed54e2709b116d10e8ca0b9ff982cd37bd62cc82\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\8bb98088595ed46114477afff2344d5f73d866b3\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:10:9-37
+	android:supportsRtl
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:9:9-38
+	android:theme
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:13:9-47
+activity#com.example.tarunmittal.body_guardian.MainActivity
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.tarunmittal.body_guardian.signup
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:21:9-22:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:21:19-41
+activity#com.example.tarunmittal.body_guardian.HomeActivity
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:23:19-47
+activity#com.example.tarunmittal.body_guardian.BMI
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:25:9-26:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:25:19-38
+activity#com.example.tarunmittal.body_guardian.Disclamier
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:27:9-28:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:27:19-45
+activity#com.example.tarunmittal.body_guardian.Info
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:29:9-30:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:29:19-39
+activity#com.example.tarunmittal.body_guardian.BMR
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:31:19-38
+activity#com.example.tarunmittal.body_guardian.Target_heart_rate
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:33:19-52
+activity#com.example.tarunmittal.body_guardian.idealweight
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:35:19-46
+activity#com.example.tarunmittal.body_guardian.Colariecount
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:37:19-47
+activity#com.example.tarunmittal.body_guardian.CalorieActivity
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:39:9-40:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:39:19-50
+activity#com.example.tarunmittal.body_guardian.vegetable
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:41:19-44
+activity#com.example.tarunmittal.body_guardian.m
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:43:19-36
+activity#com.example.tarunmittal.body_guardian.Fruits
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:45:9-46:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:45:19-41
+activity#com.example.tarunmittal.body_guardian.Beverages
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:47:9-48:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:47:19-44
+activity#com.example.tarunmittal.body_guardian.fastfoods
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:49:9-50:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:49:19-44
+activity#com.example.tarunmittal.body_guardian.dfruits
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:51:9-52:20
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:51:19-42
+meta-data#android.app.searchable
+ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:53:9-54:63
+	android:resource
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:53:20-54
+	android:name
+		ADDED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml:54:13-50
+uses-sdk
+INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\91b3e3e662b39f2b9853f362eb0535abd2a1c7a5\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-auth:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\40c01168320968f417454f26d27dfa321d9c3f3a\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\c256b0ea25c365a913e3af217e19ad3e685dbb88\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4eb49c0f17dca389605bdb02521afd18429fc0c0\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-invites:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\f9c60534e7366802217f8914302688edeb6c1618\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\82184299ada4f1d65f8192158fe47be9c34fb2b5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tarun Mittal\.android\build-cache\5c7f85d944f0450357b0bda4295a51829c7769ba\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\0964f0a5882a520c3529b87f14b0fbe361abcff4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\512dcf42081cc03bc71dbe2454c5c23b637aae48\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\43a1ce9226b51fc45b5438187d2b675373badf39\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\787b20fd9f5b3ffb2c159a53ba4d4b7736ffd180\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\4d9d8bb9c9eaaf6770bd5370187c57eefa6f7020\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\fe9224aa24c6809a754f91b0c5b7e3ab6c80e8ff\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\6641c1d6edd829de8bb34e4b64a75629d6d2cded\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ee36f11882607548e0e9776387f295a6da2e4926\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\19bfc2607cd045cbb37a0e51d01422b999aa8a83\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ed54e2709b116d10e8ca0b9ff982cd37bd62cc82\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\8bb98088595ed46114477afff2344d5f73d866b3\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app\Body_Guardian\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4d71568ff8e77722e8f0d485596aca85608c9eed\output\AndroidManifest.xml:27:27-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\98c37d73e367088ba8521e3d5a21352af2f3cc2a\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\745d9a6cacc23282feab5cb5b2e34d90ca92c04f\output\AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\1597fae0683ebe93503f51a790821474636ddda0\output\AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\a920b402523454eea6fb1768144d7cd4752e3696\output\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\4243d287dfd9486e0e8c1deacae531b6dea2cc28\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\Tarun Mittal\.android\build-cache\fed4034d4b41bdb19b924b404695003c931f3b8e\output\AndroidManifest.xml:22:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\0964f0a5882a520c3529b87f14b0fbe361abcff4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\512dcf42081cc03bc71dbe2454c5c23b637aae48\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\43a1ce9226b51fc45b5438187d2b675373badf39\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\787b20fd9f5b3ffb2c159a53ba4d4b7736ffd180\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\4d9d8bb9c9eaaf6770bd5370187c57eefa6f7020\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\fe9224aa24c6809a754f91b0c5b7e3ab6c80e8ff\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\6641c1d6edd829de8bb34e4b64a75629d6d2cded\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ee36f11882607548e0e9776387f295a6da2e4926\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\19bfc2607cd045cbb37a0e51d01422b999aa8a83\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\ed54e2709b116d10e8ca0b9ff982cd37bd62cc82\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\8bb98088595ed46114477afff2344d5f73d866b3\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Tarun Mittal\.android\build-cache\617ba72982d17275828fd290c83d8b89f553eb03\output\AndroidManifest.xml:26:9-47
